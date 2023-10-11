@@ -4,22 +4,42 @@ body {
     flex-direction: column;
 }
 
+#title_slide {
+    background-image: url("../images/i_have_a_website.png");
+    background-color: #cccccc;
+    /* opacity: 0.5; */
+}
+
 h1 {
     text-align: center;
-    margin-left: auto;
-    margin-right: auto;
     margin-top: 100px;
     font-size: 130px;
     color: white;
+    margin: auto;
+    font-family: 'Nokora', sans-serif;
 }
 
 h2 {
-    text-align:center;
+    text-align: center;
     color: white;
     font-size: 30px;
     color: white;
+    margin: auto;
+    font-family: 'Nokora', sans-serif;
 }
 
 button {
-    justify-content: center;
+    width: 160px;
+    height: 50px;
+    font-size:15px;
+}
+
+.center {
+    text-align: center;
+}
+
+.background_img {
+    max-width: 100%;
+    height: auto;
+    width: auto\9; /* ie8 */
 }
