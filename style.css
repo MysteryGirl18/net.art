@@ -1,41 +1,42 @@
 body {
-    background-color: black;
     display: flex;
     flex-direction: column;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 #title_slide {
-    background-image: url("../images/i_have_a_website.png");
-    background-color: #cccccc;
-    /* opacity: 0.5; */
+    background-image: url("images/i_have_a_website.png");
+    opacity: 0.5;
 }
 
 h1 {
     text-align: center;
-    margin-top: 100px;
     font-size: 130px;
     color: white;
     margin: auto;
     font-family: 'Nokora', sans-serif;
-    border: blue;
+    border: rgb(216, 216, 216);
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    background-color: white;
 }
 
 h2 {
     text-align: center;
     color: white;
     font-size: 30px;
-    color: white;
+    color: rgb(0, 0, 0);
     margin: auto;
     font-family: 'Nokora', sans-serif;
 }
 
 button {
+    margin-top: 50px;
     width: 160px;
     height: 50px;
-    font-size:17px;
+    font-size: 17px;
     font-family: 'Nokora', sans-serif;
-    border:0px;
+    border: 0px;
     border-radius: 10px;
 }
 
@@ -46,5 +47,6 @@ button {
 .background_img {
     max-width: 100%;
     height: auto;
-    width: auto\9; /* ie8 */
+    width: auto\9;
+    /* ie8 */
 }
