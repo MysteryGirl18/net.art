@@ -17,6 +17,8 @@ h1 {
     color: white;
     margin: auto;
     font-family: 'Nokora', sans-serif;
+    border: blue;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
 h2 {
