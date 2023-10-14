@@ -3,10 +3,21 @@ body {
     flex-direction: column;
     margin-top: 200px;
     margin-bottom: 200px;
+    
 }
 
 #title_slide {
     background-image: url("images/i_have_a_website.png");
+    background-color: #cccccc;
+    background-repeat: repeat;
+}
+
+.highlight{
+    display: inline-block;
+    /* padding: 0 0; */
+    background: #cccccc;
+    height: auto;
+    width: 50%;
 }
 
 h1 {
@@ -15,8 +26,17 @@ h1 {
     color: white;
     margin: auto;
     font-family: 'Nokora', sans-serif;
-    border: rgb(216, 216, 216);
-    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    border: rgb(7, 7, 7);
+    /* text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; */
+    text-shadow:
+    -1px -1px 0 #000,
+     0   -1px 0 #000,
+     1px -1px 0 #000,
+     1px  0   0 #000,
+     1px  1px 0 #000,
+     0    1px 0 #000,
+    -1px  1px 0 #000,
+    -1px  0   0 #000;
 }
 
 h2 {
