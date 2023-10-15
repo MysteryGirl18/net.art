@@ -3,7 +3,7 @@ body {
     flex-direction: column;
     margin-top: 200px;
     margin-bottom: 200px;
-    
+    background-color: #cccccc;
 }
 
 #title_slide {
@@ -68,3 +68,7 @@ button {
     width: auto\9;
     /* ie8 */
 }
+
+/* .grid_elems {
+    display: grid;
+} */
