@@ -7,8 +7,16 @@
 body {
     display: flex;
     flex-direction: column;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    background-color: #cccccc;
+}
+.whiteBody {
+    display: flex;
+    flex-direction: column;
     margin-top: 50px;
     margin-bottom: 100px;
+    background-color: #ffffff;
 }
 
 #title_slide {
@@ -194,3 +202,19 @@ li {
     font-size: 20px;
     font-family: 'Nokora', sans-serif;
 }
+
+.side_by_side {
+    max-width: 40%;
+    height: auto;
+    width: auto\9;
+    padding-inline: 2%;
+}
+
+.quote {
+    /* figure out how to make this look like pretty quote */
+    font-family:'Lucida Sans', 'Lucida Sans Regular', sans-serif;
+}
+
+/* .grid_elems {
+    display: grid;
+} */
