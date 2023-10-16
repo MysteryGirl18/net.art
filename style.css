@@ -47,7 +47,6 @@ h1 {
         0 1px 0 #000,
         -1px 1px 0 #000,
         -1px 0 0 #000;
-
 }
 
 h2 {
@@ -82,6 +81,7 @@ button:hover {
     grid-column-end: 2;
     grid-row-start: 1;
     grid-row-end: 2;
+
 }
 
 .gridLeft {
@@ -89,6 +89,7 @@ button:hover {
     grid-column-end: 3;
     grid-row-start: 2;
     grid-row-end: 3;
+
 }
 
 .gridLeftText {
@@ -96,6 +97,10 @@ button:hover {
     grid-column-end: 2;
     grid-row-start: 2;
     grid-row-end: 3;
+    color: black;
+    font-size: 40px;
+    font-family: 'Nokora', sans-serif;
+    padding: 2vw;
 }
 
 .gridRightText {
@@ -103,6 +108,10 @@ button:hover {
     grid-column-end: 3;
     grid-row-start: 1;
     grid-row-end: 2;
+    color: black;
+    font-size: 40px;
+    font-family: 'Nokora', sans-serif;
+    padding: 2vw;
 }
 
 .background_img {
@@ -113,7 +122,6 @@ button:hover {
 }
 
 dt {
-    color: white;
     padding: 10px;
     position: sticky;
     margin: 1em 0;
@@ -121,7 +129,6 @@ dt {
 }
 
 dl {
-    color: white;
     position: sticky;
     top: 0px;
     background-color: white;
@@ -130,7 +137,7 @@ dl {
 h3 {
     position: sticky;
     text-align: center;
-    font-size: 70px;
+    font-size: 100px;
     color: white;
     margin: auto;
     font-family: 'Nokora', sans-serif;
@@ -177,6 +184,13 @@ h3 {
 
 p {
     color: black;
-    font-size: 50px;
-    background-color: white;
+    font-size: 20px;
+    font-family: 'Nokora', sans-serif;
+    padding: 2vw;
+}
+
+li {
+    color: black;
+    font-size: 20px;
+    font-family: 'Nokora', sans-serif;
 }
