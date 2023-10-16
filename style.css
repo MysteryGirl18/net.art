@@ -45,7 +45,6 @@ h1 {
     margin: auto;
     font-family: 'Nokora', sans-serif;
     border: rgb(7, 7, 7);
-    /* text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; */
     text-shadow:
         -1px -1px 0 #000,
         0 -1px 0 #000,
@@ -211,10 +210,8 @@ li {
 }
 
 .quote {
-    /* figure out how to make this look like pretty quote */
-    font-family:'Lucida Sans', 'Lucida Sans Regular', sans-serif;
+    color: red;
+    margin: auto;
+    font-family: 'Nokora', sans-serif;
+    border: rgb(7, 7, 7);
 }
-
-/* .grid_elems {
-    display: grid;
-} */
